@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class OpenBrowser {
 	
-	@Test(groups={"sanity"})
+	@Test(groups={"sanity", "smoke", "functional"})
 	public void openbrowser(){
 	
 	System.setProperty("webdriver.gecko.driver", "E:\\IMP\\geckodriver.exe");
