@@ -1,204 +1,132 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="TestSuite" time="52.529" errors="0" skipped="0">
+<testsuite tests="0" failures="0" name="TestSuite" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="SeleniumDemo"/>
-    <property name="LENOVO" value="IMAGED"/>
+    <property name="JOB_NAME" value="IntuitQARegression"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
-    <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\ravula\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="366e3de18372a8ae"/>
-    <property name="POM_ARTIFACTID" value="SeleniumAutomation"/>
+    <property name="groups" value="sanity"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Users\user\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="fda5f05df8e71963"/>
     <property name="os.name" value="Windows 7"/>
-    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_74\jre\classes"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="SeleniumAutomation"/>
     <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\ravula\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_74-b02"/>
-    <property name="user.name" value="ravula"/>
+    <property name="TEMP" value="C:\Users\user\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="user"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="QAPHOOKS_INIDIR" value="C:\Program Files (x86)\Silk\SilkTest\"/>
-    <property name="BUILD_DISPLAY_NAME" value="#14"/>
-    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\bin"/>
-    <property name="LOCALAPPDATA" value="C:\Users\ravula\AppData\Local"/>
-    <property name="java.version" value="1.8.0_74"/>
+    <property name="JOB_BASE_NAME" value="IntuitQARegression"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/IntuitQARegression/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\user\AppData\Local"/>
+    <property name="java.version" value="1.8.0_101"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="ravula"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="USERNAME" value="user"/>
+    <property name="sun.arch.data.model" value="32"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="COMMPath" value="C:\Program Files\Lenovo\Communications Utility"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="14"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="file.separator" value="\"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="HOMEDRIVE" value="C:"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\user\AppData\Local\AutoIt v3\SciTE"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="user.country" value="US"/>
-    <property name="SILK_CONFIG_PATH" value="C:\ProgramData\Borland\Silk\SilkMeter\cfg"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_74\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="TFS_DIR" value="C:\Program Files\ThinkVantage Fingerprint Software\"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_101\jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="6.1"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\ravula\AppData\Local\Temp"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/IntuitQARegression/3/display/redirect"/>
+    <property name="TMP" value="C:\Users\user\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="java.vm.version" value="25.101-b13"/>
     <property name="user.variant" value=""/>
-    <property name="LDMS_LOCAL_DIR" value="C:\Program Files (x86)\LANDesk\LDClient\Data"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="d51c1cf430eb76203f5cc9e348e2aa2fb1679b95"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/IntuitQARegression/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_74"/>
+    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_101"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\user"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="HOMEPATH" value="\Users\ravula"/>
-    <property name="OPEN_AGENT_HOME" value="C:\Program Files (x86)\Silk\SilkTest\ng"/>
-    <property name="USERDNSDOMAIN" value="CORP.INTUIT.NET"/>
-    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="USER-PC"/>
     <property name="user.script" value=""/>
-    <property name="COMPUTERNAME" value="BOSL0751720B2"/>
-    <property name="HOME" value="C:\Users\ravula"/>
-    <property name="POM_GROUPID" value="org.liveproject.com"/>
-    <property name="user.home" value="C:\Users\ravula"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="SEGUE_HOME" value="C:\Program Files (x86)\Silk\SilkTest\"/>
-    <property name="BUILD_TAG" value="jenkins-SeleniumDemo-14"/>
-    <property name="JENKINS_SERVER_COOKIE" value="366e3de18372a8ae"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="BUILD_TAG" value="jenkins-IntuitQARegression-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="fda5f05df8e71963"/>
+    <property name="=E:" value="E:\"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\ravula"/>
+    <property name="USERPROFILE" value="C:\Users\user"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_74\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.3.9/bin;C:\Program Files (x86)\Java\jdk1.8.0_74/bin;C:\Program Files (x86)\Java\jdk1.8.0_74/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Skype\Phone\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\JMeter\apache-jmeter-2.13\bin;C:\Program Files (x86)\Perforce;C:\Program Files (x86)\Silk\SilkTest;C:\Program Files (x86)\Silk\SilkTest\ng\gui;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Java\jdk1.8.0_74\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\apache-maven-3.3.9/bin;C:\Program Files (x86)\Java\jdk1.8.0_101/bin;C:\Program Files (x86)\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Dell\Dell Wireless WLAN Card;E:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\user\AppData\Local\Programs\Fiddler;C:\Users\user\AppData\Roaming\npm;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\ravula\AppData\Roaming"/>
-    <property name="JMETER_HOME" value="C:\JMeter\apache-jmeter-2.13"/>
+    <property name="APPDATA" value="C:\Users\user\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
-    <property name="java.class.path" value="C:\Users\ravula\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\apache-maven-3.3.9 C:\Users\ravula\.jenkins\war\WEB-INF\lib\remoting-2.53.3.jar C:\Users\ravula\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\ravula\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 49427"/>
-    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_74/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Skype\Phone\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\JMeter\apache-jmeter-2.13\bin;C:\Program Files (x86)\Perforce;C:\Program Files (x86)\Silk\SilkTest;C:\Program Files (x86)\Silk\SilkTest\ng\gui;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Java\jdk1.8.0_74\bin;"/>
-    <property name="READYAPPS" value="C:\SWTOOLS\ReadyApps"/>
+    <property name="maven.home" value="E:\apache-maven-3.3.9"/>
+    <property name="java.class.path" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.11.jar;E:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;E:\apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main E:\apache-maven-3.3.9 C:\Users\user\.jenkins\war\WEB-INF\lib\remoting-3.10.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.11.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 52129"/>
+    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Dell\Dell Wireless WLAN Card;E:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\user\AppData\Local\Programs\Fiddler;C:\Users\user\AppData\Roaming\npm"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_74/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_101/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
     <property name="SESSIONNAME" value="Console"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.3.9"/>
-    <property name="java.io.tmpdir" value="C:\Users\ravula\AppData\Local\Temp\"/>
+    <property name="M2_HOME" value="E:\apache-maven-3.3.9"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
     <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\ravula\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.3.9/bin"/>
+    <property name="HUDSON_HOME" value="C:\Users\user\.jenkins"/>
+    <property name="PATH+MAVEN" value="E:\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumDemo/14/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="os.arch" value="x86"/>
     <property name="SystemRoot" value="C:\Windows"/>
-    <property name="windows_tracing_flags" value="3"/>
-    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Persistent_Share\D_Drive\QBBS_Automation\SeleniumAutomation"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumDemo/"/>
-    <property name="LOGONSERVER" value="\\BANDCCORP02"/>
-    <property name="USERDOMAIN" value="CORP"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\DemoProject\DemoProject"/>
+    <property name="LOGONSERVER" value="\\USER-PC"/>
+    <property name="USERDOMAIN" value="user-PC"/>
     <property name="line.separator" value="
 "/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.3.9"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="14"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="MAVEN_HOME" value="E:\apache-maven-3.3.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
-    <property name="=C:" value="C:\Persistent_Share\D_Drive\QBBS_Automation"/>
+    <property name="GIT_COMMIT" value="d51c1cf430eb76203f5cc9e348e2aa2fb1679b95"/>
+    <property name="=C:" value="C:\Users\user"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\ravula\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
-    <property name="WORKSPACE" value="C:\Users\ravula\.jenkins\workspace\SeleniumDemo"/>
-    <property name="maven3.interceptor.common" value="C:\Users\ravula\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
-    <property name="TVT" value="C:\Program Files (x86)\Lenovo"/>
+    <property name="maven3.interceptor" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.11.jar"/>
+    <property name="WORKSPACE" value="C:\Users\user\.jenkins\workspace\IntuitQARegression"/>
+    <property name="maven3.interceptor.common" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/avula12345/DemoProject.git"/>
   </properties>
-  <testcase classname="org.liveproject.com.SeleniumTests.ipnInvalidLoginTest" name="sanity01_InvalidSignIn" time="14.937"/>
-  <testcase classname="org.liveproject.com.SeleniumTests.ipnLoginValidationTest" name="sanity01_InvalidSignIn" time="37.592">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sidebar&apos;]/div/a[1]&quot;}
-Command duration or timeout: 15.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
-System info: host: &apos;BOSL0751720B2&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 28cce326-501b-4ba2-a26b-c7dc5d6a5be7
-*** Element info: {Using=name, value=//*[@id=&apos;sidebar&apos;]/div/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sidebar&apos;]/div/a[1]&quot;}
-Command duration or timeout: 15.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
-System info: host: &apos;BOSL0751720B2&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 28cce326-501b-4ba2-a26b-c7dc5d6a5be7
-*** Element info: {Using=name, value=//*[@id=&apos;sidebar&apos;]/div/a[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
-	at org.liveproject.com.SeleniumTests.ipnLoginValidationTest.sanity01_InvalidSignIn(ipnLoginValidationTest.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;sidebar&apos;]/div/a[1]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
-System info: host: &apos;BOSL0751720B2&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_74&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ravula/AppData/Local/Temp/anonymous3770732179847167661webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ravula/AppData/Local/Temp/anonymous3770732179847167661webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
-</failure>
-    <system-out>User Name = merchantedwsqa1@gmail.com
-Password = 1234test
-Connected to GMAIL
-Total Messages:93
-Unread Messages:89
-Message Count is: 93
-================ Message Content ==============================
- 
-&lt;!DOCTYPE html&gt;	&lt;html&gt;	&lt;head&gt;		&lt;title&gt;Sign in confirmation email&lt;/title&gt;		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0,&quot; /&gt;		&lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;	&lt;/head&gt;	&lt;body style=&quot;margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;&quot;&gt;		&lt;table style=&quot;width:100%;border-spacing:0px;border:none;margin:0px 0px 0px;padding:0px 0px 0px;font-family:Avenir,sans-serif; margin: 0px 0px 0px 0px;&quot;&gt;			&lt;tr&gt;				&lt;td style=&quot;margin:0px 0px 0px;padding:0px 0px 0px;font-family:Avenir,sans-serif;&quot; &gt;					&lt;table style=&quot;border-spacing:0px; border:none; padding:0px 0px 0px; margin: 0px 0px 0px 0px;width:100%;&quot; align=&quot;center&quot; cellspacing=&quot;0&quot;&gt;						&lt;!-- content --&gt;						&lt;tr style=&quot;padding:0px 0px 0px 0px;&quot;&gt;							&lt;td style=&quot;background:#fff; padding: 18px 15px 25px 15px; color: #333; font-size: 14px; font-family:Avenir,sans-serif;&quot;&gt;								&lt;!-- greetings / h1 --&gt;								&lt;p style=&quot;font-size: 36px;color: #005BBB;margin:0px 0px 0px;font-weight: 500;&quot;&gt;									Confirm your Intuit account								&lt;/p&gt;								&lt;!-- message --&gt;								&lt;p style=&quot;margin:12px 0px 0px 0px; padding: 0px 0px 0px 0px;&quot;&gt;									You requested Intuit to send you an email to confirm your account. You can use this code to complete the process.																	&lt;/p&gt;																&lt;!-- message --&gt;								&lt;p style=&quot;font-size:18px;margin:12px 0px 0px 0px; padding: 0px 0px 0px 0px;&quot;&gt;									Confirmation code: 								&lt;/p&gt;								&lt;p style=&quot;font-size:18px;font-weight:bold;margin:12px 0px 0px 0px; padding: 0px 0px 0px 0px;&quot;&gt;									051728								&lt;/p&gt; 								&lt;!-- seek more help --&gt;								&lt;p style=&quot;font-size:12px;color: #797979;margin:20px 0px 0px 0px;&quot;&gt;									Didn&apos;t request an account confirmation?  &lt;a href=&quot;http://about.intuit.com/contact/&quot; style=&quot;color: #005BBB;&quot;&gt;Contact us&lt;/a&gt;. Don&apos;t reply to this email. It was automatically generated.								&lt;/p&gt;							&lt;/td&gt;						&lt;/tr&gt;						&lt;!-- footer area --&gt;						&lt;tr style=&quot;padding:0px 0px 0px 0px; height: 52px;background:#fff;text-align:center;&quot;&gt;							&lt;td style=&quot;background:#fff; border-top: 1px solid #e5e5e5; padding: 20px 15px 10px 15px;font-family:Avenir,sans-serif;&quot;&gt;								&lt;a href=&quot;https://www.intuit.com&quot; style=&quot;text-decoration:none;border:none;&quot;&gt;									&lt;img src=&quot;https://accounts.intuit.com/images/v2/logo_footer_intuit@2x.png&quot; style=&quot;width:61px; height:20px; border:none;&quot; alt=&quot;Intuit Logo&quot; /&gt;								&lt;/a&gt;							&lt;/td&gt;						&lt;/tr&gt;						&lt;tr style=&quot;padding:0px 0px 0px 0px;background:#fff;&quot;&gt;							&lt;td style=&quot;background:#fff; padding: 0px 15px 10px 15px; color: #797979; font-size: 12px;font-family:Avenir,sans-serif; text-align:center&quot;&gt;								&lt;p style=&quot;padding:0px 0px 0px 0px; margin: 0px 0px 0px;&quot;&gt;									You have received this business communication as part of our efforts to fulfill your request or service your account. You may receive this and other business communications from us even if you have opted out of marketing messages.								&lt;/p&gt;							&lt;/td&gt;						&lt;/tr&gt;					&lt;/table&gt;				&lt;/td&gt;			&lt;/tr&gt;		&lt;/table&gt;	&lt;/body&gt;&lt;/html&gt;
- 
-================ Message Content ==============================
-From = 1420
-To = 1537
-051728
-</system-out>
-  </testcase>
 </testsuite>

@@ -1,1 +1,14 @@
+org\liveproject\com\SeleniumTests\Day5class.class
+org\liveproject\com\SeleniumTests\DatePicker.class
+org\liveproject\com\SeleniumTests\GetDropDownValues.class
+org\liveproject\com\SeleniumTests\LoginPage.class
+org\liveproject\com\SeleniumTests\Sample.class
+org\liveproject\com\SeleniumTests\ReadNWrite.class
+org\liveproject\com\SeleniumTests\HDFCBank.class
+org\liveproject\com\SeleniumTests\ReadExcellData.class
+org\liveproject\com\SeleniumTests\ipnInvalidLoginTest.class
+org\liveproject\com\SeleniumTests\OpenBrowser.class
+org\liveproject\com\SeleniumTests\ImageComparision.class
+org\liveproject\com\SeleniumTests\ReadExcellData$ExcelDateReader.class
 org\liveproject\com\SeleniumTests\ipnLoginValidationTest.class
+org\liveproject\com\SeleniumTests\WebTableHandling.class

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class OpenBrowser {
 	
-	@Test
+	@Test(groups={"sanity"})
 	public void openbrowser(){
 	
 	System.setProperty("webdriver.gecko.driver", "E:\\IMP\\geckodriver.exe");
@@ -20,5 +20,6 @@ public class OpenBrowser {
 	System.out.println("Changes made by y");
 		System.out.println("Changes made by vishnu");
 		System.out.println("Changes made by vishnu1");
+		System.out.println("Changes made by Ram");
 	}
 }

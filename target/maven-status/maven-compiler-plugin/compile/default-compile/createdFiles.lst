@@ -1,3 +1,5 @@
 org\liveproject\com\pageObjects\NewIUSSignInPage.class
-org\liveproject\com\pageObjects\HomePage1.class
+org\liveproject\com\SeleniumAutomation\IPNPropertyResolver.class
 org\liveproject\com\SeleniumAutomation\IPNWebPage.class
+org\liveproject\com\pageObjects\HomePage1.class
+org\liveproject\com\pageObjects\OverviewPage.class
