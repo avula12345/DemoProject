@@ -17,5 +17,6 @@ public class OpenBrowser {
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	driver.quit();
 	System.out.println("Changes made by x");
+	System.out.println("Changes made by y");
 	}
 }
